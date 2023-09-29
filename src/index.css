@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notes::-webkit-scrollbar {
+    width: 10px;
+}
+
+#button {
+    transition: all 0.3s ease-out;
+}
+
+#button:hover {
+    @apply contrast-125
+}
+
+#note-item {
+    transition: all 0.3s ease-out;
+}
+
+#note-item:hover {
+    opacity: 80%;
+}
